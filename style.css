@@ -1,0 +1,67 @@
+*{
+    color: white;
+    margin: 0px;
+    padding:0px;
+    box-sizing: border-box;
+
+}
+p{
+    font-weight: bold;
+    
+}
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+
+}
+
+body{
+    width:800px;
+}
+
+header{
+    text-align: center;
+    background-color: blue;
+    height: 35px;
+}
+
+footer{
+    text-align: center;
+    background-color: green;
+}
+
+.nav{
+    float: left;
+
+}
+
+main{
+    text-align: center;
+}
+.Section{
+    background-color: red;
+    height: 95px;
+    margin: 10px 0px 0px 0px;
+
+}
+
+.article-container{
+    background-color: pink;
+    float: left;
+    width: 66%;
+    height: 250px;
+}
+.aside-container{
+    background-color: aqua;
+    float: left;
+    width: 34%;
+    height: 250px;
+}
+
+.nav, .nav2{
+    height: 35px;
+    background-color: green;
+    padding: 2px 15px 5px 0px;
+    text-decoration: underline
+}
